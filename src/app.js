@@ -18,21 +18,21 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Cotações',
-        author: 'Renato'
+        author: 'Renato Rodrigues'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'Sobre',
-        author: 'Renato Oliveira'
+        author: 'Renato Rodrgues'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Ajuda',
-        author: 'Renato'
+        author: 'Renato Rodrigues'
     })
 })
 
@@ -68,7 +68,7 @@ app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
         errorMessage: 'Não existe página depois de /help',
-        author: 'Renato'
+        author: 'Renato Rodrigues'
     })
 })
 
@@ -76,7 +76,7 @@ app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
         errorMessage: 'Página não encontrada',
-        author: 'Renato'
+        author: 'Renato Rodrigues'
     })
 })
 
