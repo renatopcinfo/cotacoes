@@ -1,7 +1,7 @@
-#Project cotações Bolsa
+# Project Cotações Bolsa
 
-#Execute
+# Execute
 `npm i`
 
-#Depois
+# Depois
 `npm start`
